@@ -24,4 +24,8 @@ function windSpeed(response) {
   windSpeed.innerHTML = `${wind}km/h`;
 }
 
-axios.get(apiUrl).then(showTemperature);
+axios.get(apiUrl).then(function (response) {
+  console.log("Full weather report: ", response.data);
+  showTemperature(response);
+  windSpeed(response);
+});
