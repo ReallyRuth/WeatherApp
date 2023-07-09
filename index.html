@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Week 5</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  
+  <h1 class="cityTitle" id="cityName">London, UK</h1>
+
+  <h2 class="date">Monday 14:00</h2>
+
+ <h3 class="weatherDescription">Partly Cloudy</h3>
+
+  <span class="temperature" id="temperature">19</span>
+     
+      </span>
+    </div>
+
+        <form id="citySearch">
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="Type a city"
+        class="cityInput"
+      />
+      <button class="submitButton" type="submit">Search</button>
+  </form>
+    
+  <span>        
+ <button class="current">Current city</button>
+
+</span>
+
+
+
+ <p>
+  <div class = "wind"></div>
+                  <img src="images/wind.png" alt="wind" width="50" />
+                  Wind
+                  <br />
+                  <strong id="windSpeed">10-25km/h</strong>
+                </p>
+
+                 <p>
+                   <div class = "weatherHumidity"></div>
+                  <img src="images/humidity.png" alt="humidity" width="50" />
+                  Humidity
+                  <br />
+                  <strong id="humidity">49%</strong>
+                </p>
+              
+
+    <script src="index.js"></script>
+  </body>
+</html>
