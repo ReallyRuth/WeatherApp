@@ -10,6 +10,16 @@ body {
   padding-left: 100px;
 }
 
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ffb6c1;
+  border-radius: 5px;
+}
+
 h1 {
-  color: blue;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
 }
