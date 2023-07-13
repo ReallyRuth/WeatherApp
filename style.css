@@ -43,6 +43,7 @@ li {
   margin-right: 10px;
   height: 64px;
   width: 64px;
+  position: relative;
 }
 .weather-app strong {
   font-size: 64px;
