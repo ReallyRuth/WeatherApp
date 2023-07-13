@@ -22,4 +22,19 @@ h1 {
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  font-weight: 100;
 }
